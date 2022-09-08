@@ -6,14 +6,14 @@ public class Alquiler {
     
     private int idAlquiler;
     private int idPowerBank;
-    private String username;
-    private  Date fechaAlquiler;
+    private String identificacion;
+    private  Date tiempoAlquiler;
 
-    public Alquiler(int idAlquiler, int idPowerBank, String username, Date fechaAlquiler) {
+    public Alquiler(int idAlquiler, int idPowerBank, String identificacion, Date tiempoAlquiler) {
         this.idAlquiler = idAlquiler;
         this.idPowerBank = idPowerBank;
-        this.username = username;
-        this.fechaAlquiler = fechaAlquiler;
+        this.identificacion = identificacion;
+        this.tiempoAlquiler = tiempoAlquiler;
     }
 
     public int getIdAlquiler() {
@@ -32,25 +32,25 @@ public class Alquiler {
         this.idPowerBank = idPowerBank;
     }
 
-    public String getUsername() {
-        return username;
+    public String getIdentificacion() {
+        return identificacion;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setIdentificacion(String identificacion) {
+        this.identificacion = identificacion;
     }
 
-    public Date getFechaAlquiler() {
-        return fechaAlquiler;
+    public Date getTiempoAlquiler() {
+        return tiempoAlquiler;
     }
 
-    public void setFechaAlquiler(Date fechaAlquiler) {
-        this.fechaAlquiler = fechaAlquiler;
+    public void setTiempoAlquiler(Date tiempoAlquiler) {
+        this.tiempoAlquiler = tiempoAlquiler;
     }
 
     @Override
     public String toString() {
-        return "Alquiler{" + "idAlquiler=" + idAlquiler + ", idPowerBank=" + idPowerBank + ", username=" + username + ", fechaAlquiler=" + fechaAlquiler + '}';
+        return "Alquiler{" + "idAlquiler=" + idAlquiler + ", idPowerBank=" + idPowerBank + ", identificacion=" + identificacion + ", tiempoAlquiler=" + tiempoAlquiler + '}';
     }
     
 }
