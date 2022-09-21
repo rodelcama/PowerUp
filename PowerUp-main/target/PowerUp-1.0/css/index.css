@@ -1,0 +1,18 @@
+
+
+.bg-index-image {
+background: url("../img/logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    border: 0px;
+}
+.sizeDiv{
+    width: 40vw;
+}
+img{
+    width: auto;
+    height: auto;
+    max-width: 300px; 
+    max-height: 300px
+}
